@@ -9,10 +9,11 @@
 
     <TextView
         android:id="@+id/questionText"
-        android:layout_width="306dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Milline president oli Eesti Vabariigil 90-datel aastatel?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="42sp" />
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
@@ -24,32 +25,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RadioButton"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="32sp" />
 
         <RadioButton
             android:id="@+id/questionAnswer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="32sp" />
 
         <RadioButton
             android:id="@+id/questionAnswer2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="32sp" />
 
         <RadioButton
             android:id="@+id/questionAnswer3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="32sp" />
     </RadioGroup>
 
     <Button
         android:id="@+id/questionForward"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:layout_width="239dp"
+        android:layout_height="80dp"
+        android:text="Edasi" />
 
     <Button
         android:id="@+id/reset"
