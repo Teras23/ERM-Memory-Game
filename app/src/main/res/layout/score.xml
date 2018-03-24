@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <TextView
-        android:id="@+id/score"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="108dp" />
+        android:text="TextView" />
 
     <Button
-        android:id="@+id/reset"
-        android:layout_width="wrap_content"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="244dp" />
-</android.support.constraint.ConstraintLayout>
+        android:text="Button" />
+</LinearLayout>

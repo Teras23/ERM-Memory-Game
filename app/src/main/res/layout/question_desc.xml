@@ -1,41 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <ImageView
-        android:id="@+id/questionImg"
-        android:layout_width="269dp"
-        android:layout_height="129dp"
-        app:srcCompat="@android:color/holo_blue_dark"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="64dp" />
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@color/colorAccent" />
 
     <TextView
-        android:id="@+id/questionDesc"
-        android:layout_width="236dp"
-        android:layout_height="194dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum et felis egestas congue. Duis sed porttitor diam, ac ornare purus. Quisque commodo, turpis vitae tincidunt varius, lectus tortor interdum libero, quis eleifend nunc lorem ut elit. Curabitur in ullamcorper urna, elementum rutrum arcu. In auctor suscipit dolor quis vestibulum. Vestibulum at hendrerit neque, at efficitur arcu. Donec id erat et ipsum luctus iaculis vel in elit. Nunc auctor fermentum sodales. Morbi dignissim interdum eleifend. Aliquam erat volutpat.  Donec feugiat sed lectus a volutpat. Etiam facilisis enim nisl, vitae faucibus erat eleifend non. Etiam iaculis metus eget odio blandit, quis pharetra ligula posuere. Donec in semper augue. Phasellus urna nunc, venenatis sed ipsum vitae, fringilla gravida libero. Phasellus eu nisl turpis. Vestibulum quis velit sed justo pharetra dignissim. Donec ac varius dui. Nunc sit amet nisl orci. Vivamus consequat mollis dui, sed rutrum nulla posuere at. Praesent at mi nec erat tincidunt auctor. Sed porttitor, mauris at bibendum tincidunt, elit ex maximus quam, a mattis odio metus non sapien. Aenean vehicula libero ac magna convallis, nec venenatis nisl bibendum."
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="202dp" />
-
-    <Button
-        android:id="@+id/descForward"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="424dp" />
-
-    <Button
-        android:id="@+id/reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="396dp" />
-
-</android.support.constraint.ConstraintLayout>
+        android:text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum " />
+</LinearLayout>
