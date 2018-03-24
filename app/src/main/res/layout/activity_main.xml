@@ -8,22 +8,24 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
-    <ImageButton
-        android:id="@+id/imageButton"
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="Flag_of_Estonia.svg"
-        app:srcCompat="@drawable/Flag_of_Russia" />
+        android:layout_height="120dp"
+        android:text="EESTI KEEL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:srcCompat="@android:color/darker_gray" />
+        android:layout_height="120dp"
+        android:text="IN ENGLISH"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
+    <Button
+        android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:srcCompat="@color/colorPrimaryDark" />
+        android:layout_height="120sp"
+        android:text="ПО РУССКИЙ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 </LinearLayout>
