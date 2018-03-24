@@ -1,5 +1,6 @@
 package ee.erm.art.ermmemorygame;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.Map;
  * Created by teras on 24.03.18.
  */
 
-public class Question {
+public class Question implements Serializable {
     private String fileName;
     private MLString questionText;
     private MLString description;
@@ -36,16 +37,16 @@ public class Question {
         answers.add(answer);
     }
 
-    public MLString getQuestionText() {
-        return questionText;
+    public String getQuestionText() {
+        return questionText.getCurrentValue();
     }
 
     public void setQuestionText(MLString questionText) {
         this.questionText = questionText;
     }
 
-    public MLString getDescription() {
-        return description;
+    public String getDescription() {
+        return description.getCurrentValue();
     }
 
     public void setDescription(MLString description) {

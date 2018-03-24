@@ -24,8 +24,14 @@
         android:gravity="center"
         android:textSize="108sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="32sp" />
+
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/reset"
         style="@android:style/Widget.Holo.ImageButton"
         android:layout_width="166dp"
         android:layout_height="156dp"

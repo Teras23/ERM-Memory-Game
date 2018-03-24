@@ -17,7 +17,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="258dp"
         android:text="20.-22. juunini 1992. aastal vahetati Eesti Vabariigis kasutusel olnud rublad eesti kroonide vastu. Rahareformi Komitee moodustati juba 27.03.1991. aastal, esimeheks Edgar Savisaar. Ühe inimese kohta oli võimalik vahetada 1500 rubla"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="32sp" />
@@ -28,7 +28,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/questionForward"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

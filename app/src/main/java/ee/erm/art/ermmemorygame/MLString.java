@@ -1,5 +1,6 @@
 package ee.erm.art.ermmemorygame;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,9 +8,9 @@ import java.util.Map;
  * Created by teras on 24.03.18.
  */
 
-public class MLString {
+public class MLString implements Serializable {
 
-    public static Language currentLanguage;
+    public static Language currentLanguage = Language.Estonian;
 
     public enum Language {
         Estonian,
@@ -25,6 +26,10 @@ public class MLString {
 
     public String getValue(Language language) {
         return strings.get(language);
+    }
+
+    public String getCurrentValue() {
+        return strings.get(currentLanguage);
     }
 
     public void setValue(Language language, String text) {

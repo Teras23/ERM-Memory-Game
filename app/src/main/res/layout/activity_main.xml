@@ -8,22 +8,20 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
-    <Button
-        android:id="@+id/button"
+    <ImageButton
+        android:id="@+id/languageEE"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:text="EESTI KEEL"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        app:srcCompat="@android:color/darker_gray" />
 
-    <Button
-        android:id="@+id/button2"
+    <ImageButton
+        android:id="@+id/languageRU"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:text="IN ENGLISH"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-    <Button
-        android:id="@+id/button3"
+    <ImageButton
+        android:id="@+id/languageEN"
         android:layout_width="match_parent"
         android:layout_height="120sp"
         android:text="ПО РУССКИЙ"
