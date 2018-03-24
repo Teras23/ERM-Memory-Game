@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import java.io.Serializable;
 import java.util.List;
@@ -25,6 +26,10 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
 
         questionList = (List<Question>)getIntent().getSerializableExtra("question");
         questionIndex = getIntent().getIntExtra("questionIndex", 0);
+        Question question = questionList.get(questionIndex);
+
+        TextView questionDescription = findViewById(R.id.questionDescription);
+        questionDescription.setText(question.getDescription());
 
         ImageButton nextButton = findViewById(R.id.questionForward);
 

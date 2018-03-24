@@ -3,8 +3,11 @@ package ee.erm.art.ermmemorygame;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.io.Serializable;
@@ -18,6 +21,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
     private List<Question> questionList;
     private Integer questionIndex;
+    private RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +30,25 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
         questionList = (List<Question>)getIntent().getSerializableExtra("question");
         questionIndex = getIntent().getIntExtra("questionIndex", 0);
+        Question question = questionList.get(questionIndex);
+
         TextView textView = findViewById(R.id.questionText);
-        textView.setText(questionList.get(questionIndex).getQuestionText());
+        textView.setText(question.getQuestionText());
+
+        RadioButton answer0 = findViewById(R.id.questionAnswer0);
+        RadioButton answer1 = findViewById(R.id.questionAnswer1);
+        RadioButton answer2 = findViewById(R.id.questionAnswer2);
+        RadioButton answer3 = findViewById(R.id.questionAnswer3);
+
+        answer0.setText(question.getAnswer(0));
+        answer1.setText(question.getAnswer(1));
+        answer2.setText(question.getAnswer(2));
+        answer3.setText(question.getAnswer(3));
 
         ImageButton nextButton = findViewById(R.id.questionForward);
         ImageButton homeButton = findViewById(R.id.reset);
+
+        radioGroup = findViewById(R.id.questionAnswerGroup);
 
         nextButton.setOnClickListener(this);
         homeButton.setOnClickListener(this);
@@ -39,11 +57,32 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.questionForward) {
-            Intent intent = new Intent(QuestionActivity.this, QuestionDescriptionActivity.class);
-            intent.putExtra("question", (Serializable) questionList);
-            intent.putExtra("questionIndex", questionIndex);
-            finish();
-            startActivity(intent);
+            if(radioGroup.getCheckedRadioButtonId() != -1) {
+                int selectedValue = 0;
+
+                switch (radioGroup.getCheckedRadioButtonId()) {
+                    case R.id.questionAnswer0:
+                        selectedValue = 0;
+                        break;
+                    case R.id.questionAnswer1:
+                        selectedValue = 1;
+                        break;
+                    case R.id.questionAnswer2:
+                        selectedValue = 2;
+                        break;
+                    case R.id.questionAnswer3:
+                        selectedValue = 3;
+                        break;
+                }
+
+                Intent intent = new Intent(QuestionActivity.this, QuestionDescriptionActivity.class);
+                intent.putExtra("question", (Serializable) questionList);
+                intent.putExtra("questionIndex", questionIndex);
+                intent.putExtra("answeredQuestion", selectedValue);
+                Log.i("ERM", "" + selectedValue);
+                finish();
+                startActivity(intent);
+            }
         }
         else if(view.getId() == R.id.reset) {
             finish();

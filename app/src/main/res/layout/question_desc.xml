@@ -15,7 +15,7 @@
         app:srcCompat="@color/colorAccent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/questionDescription"
         android:layout_width="match_parent"
         android:layout_height="258dp"
         android:text="20.-22. juunini 1992. aastal vahetati Eesti Vabariigis kasutusel olnud rublad eesti kroonide vastu. Rahareformi Komitee moodustati juba 27.03.1991. aastal, esimeheks Edgar Savisaar. Ühe inimese kohta oli võimalik vahetada 1500 rubla"
