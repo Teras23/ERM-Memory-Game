@@ -53,6 +53,10 @@ public class Question implements Serializable {
         this.description = description;
     }
 
+    public String getAnswer(int index) {
+        return answers.get(index).getCurrentValue();
+    }
+
     @Override
     public String toString() {
         return "Question{" +
