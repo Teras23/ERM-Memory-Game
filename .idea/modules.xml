@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ERMMemoryGame.iml" filepath="$PROJECT_DIR$/ERMMemoryGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ERM-Memory-Game.iml" filepath="$PROJECT_DIR$/ERM-Memory-Game.iml" />
+      <module fileurl="file://C:\Users\Richard\ERM-Memory-Game\ERMMemoryGame.iml" filepath="C:\Users\Richard\ERM-Memory-Game\ERMMemoryGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
