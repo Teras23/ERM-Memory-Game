@@ -25,7 +25,7 @@
         android:textSize="108sp" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/reset"
         style="@android:style/Widget.Holo.ImageButton"
         android:layout_width="166dp"
         android:layout_height="156dp"

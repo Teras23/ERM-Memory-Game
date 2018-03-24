@@ -1,11 +1,10 @@
 package ee.erm.art.ermmemorygame;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.io.Serializable;
@@ -30,8 +29,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         TextView textView = findViewById(R.id.questionText);
         textView.setText(questionList.get(questionIndex).getQuestionText());
 
-        Button nextButton = findViewById(R.id.questionForward);
-        Button homeButton = findViewById(R.id.reset);
+        ImageButton nextButton = findViewById(R.id.questionForward);
+        ImageButton homeButton = findViewById(R.id.reset);
 
         nextButton.setOnClickListener(this);
         homeButton.setOnClickListener(this);

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -25,9 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         readQuestions();
 
-        Button estonianButton = findViewById(R.id.languageEE);
-        Button russianButton = findViewById(R.id.languageRU);
-        Button englishButton = findViewById(R.id.languageEN);
+        ImageButton estonianButton = findViewById(R.id.languageEE);
+        ImageButton russianButton = findViewById(R.id.languageRU);
+        ImageButton englishButton = findViewById(R.id.languageEN);
 
         estonianButton.setOnClickListener(this);
         russianButton.setOnClickListener(this);

@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 import java.io.Serializable;
 import java.util.List;
@@ -26,16 +26,16 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
         questionList = (List<Question>)getIntent().getSerializableExtra("question");
         questionIndex = getIntent().getIntExtra("questionIndex", 0);
 
-        Button nextButton = findViewById(R.id.questionForward);
+        ImageButton nextButton = findViewById(R.id.questionForward);
 
-        //nextButton.setOnClickListener(this);
+        nextButton.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.questionForward) {
             if(questionIndex + 1 < questionList.size()) {
-                Intent intent = new Intent(QuestionDescriptionActivity.this, QuestionDescriptionActivity.class);
+                Intent intent = new Intent(QuestionDescriptionActivity.this, QuestionActivity.class);
                 intent.putExtra("question", (Serializable) questionList);
                 intent.putExtra("questionIndex", questionIndex + 1);
                 finish();
