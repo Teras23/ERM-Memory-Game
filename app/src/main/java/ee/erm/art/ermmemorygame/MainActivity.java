@@ -9,10 +9,12 @@ import android.view.View;
 import android.widget.Button;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private List<Question> questionList;
 
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        readQuestions();
 
         Button estonianButton = findViewById(R.id.languageEE);
         Button russianButton = findViewById(R.id.languageRU);
@@ -42,19 +46,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             MLString.setCurrentLanguage(MLString.Language.English);
         }
 
-        startActivity(new Intent(MainActivity.this, QuestionActivity.class));
-        Log.i("ERM", "" + view.getId());
+        Intent intent = new Intent(MainActivity.this, QuestionActivity.class);
+        intent.putExtra("question", (Serializable)questionList);
+        startActivity(intent);
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
+    private void readQuestions() {
         questionList = QuestionReader.getQuestions(this);
 
         for(Question question : questionList) {
             Log.i("ERM", question.toString());
         }
-
-        Log.i("ERM", "");
     }
 }
