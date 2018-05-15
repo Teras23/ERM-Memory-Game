@@ -56,6 +56,9 @@ public class Question implements Serializable {
     public String getAnswer(int index) {
         return answers.get(index).getCurrentValue();
     }
+    public Integer getCorrectAnswer(){
+        return correctAnswer;
+    }
 
     @Override
     public String toString() {

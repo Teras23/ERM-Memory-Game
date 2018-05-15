@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
+import javax.xml.transform.Result;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private List<Question> questionList;
@@ -26,9 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         readQuestions();
 
-        ImageButton estonianButton = findViewById(R.id.languageEE);
-        ImageButton russianButton = findViewById(R.id.languageRU);
-        ImageButton englishButton = findViewById(R.id.languageEN);
+        Button estonianButton = findViewById(R.id.languageEE);
+        Button russianButton = findViewById(R.id.languageRU);
+        Button englishButton = findViewById(R.id.languageEN);
 
         estonianButton.setOnClickListener(this);
         russianButton.setOnClickListener(this);
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent intent = new Intent(MainActivity.this, QuestionActivity.class);
         intent.putExtra("question", (Serializable)questionList);
+        ResultActivity.userScore = 0;
         startActivity(intent);
     }
 

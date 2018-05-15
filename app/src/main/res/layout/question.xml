@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_blue"
     android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="16dp"
@@ -12,6 +15,7 @@
         android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
         android:text="Milline president oli Eesti Vabariigil 90-datel aastatel?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="42sp" />
@@ -20,6 +24,7 @@
         android:id="@+id/questionAnswerGroup"
         android:layout_width="fill_parent"
         android:layout_height="222dp"
+        android:background="@android:color/background_light"
         android:orientation="vertical">
 
         <RadioButton
@@ -73,5 +78,4 @@
                 app:srcCompat="@android:drawable/ic_media_play" />
         </LinearLayout>
     </RadioGroup>
-
 </LinearLayout>

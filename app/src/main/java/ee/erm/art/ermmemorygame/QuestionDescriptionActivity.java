@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.Serializable;
@@ -33,6 +34,9 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
 
         ImageButton nextButton = findViewById(R.id.questionForward);
 
+        ImageView imageView = findViewById(R.id.descriptionImage);
+        imageView.setImageResource(getDrawableImage());
+
         nextButton.setOnClickListener(this);
     }
 
@@ -54,6 +58,25 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
         }
         else if(view.getId() == R.id.reset) {
             finish();
+        }
+    }
+
+    private int getDrawableImage(){
+        switch (questionIndex){
+            case 0:
+                return R.drawable.pic1;
+            case 1:
+                return R.drawable.pic2;
+            case 2:
+                return R.drawable.pic3;
+            case 3:
+                return R.drawable.pic4;
+            case 4:
+                return R.drawable.pic5;
+            case 5:
+                return R.drawable.pic6;
+            default:
+                return R.drawable.ic_bg_pink;
         }
     }
 }

@@ -1,141 +1,68 @@
 [
   {
-    "question_ee": "question0_ee",
-    "question_ru": "question0_ru",
-    "question_en": "question0_en",
+    "question_ee": "Kuna sündis Edgar Savisaar",
+    "question_ru": "Когда родилься Едгар Сависаар?",
+    "question_en": "When was Edgar Savisaar born?",
 
-    "description_ee": "description_ee",
-    "description_ru": "description_ru",
-    "description_en": "description_en",
+    "description_ee": "Õige vastus on 'kes tema on' sest mitte ükski mõistusega inimene ei tohiks teada kes ta on",
+    "description_ru": "Правилное ответ - это 'Кто он' потому что никто не разумный человек не должен знать кто он",
+    "description_en": "The correct answer is 'Who is he' because no sensible man should know who he is.",
 
-    "picture_file": "picture",
-    "correct_answer": 0,
+    "picture_file": "picture1.jpg",
+    "correct_answer": 2,
 
     "answers": [
       {
-        "answer_ee": "answer0_ee",
-        "answer_ru": "answer0_ru",
-        "answer_en": "answer0_en"
+        "answer_ee": "1991",
+        "answer_ru": "1991",
+        "answer_en": "1991"
       },
       {
-        "answer_ee": "answer1_ee",
-        "answer_ru": "answer1_ru",
-        "answer_en": "answer1_en"
+        "answer_ee": "2002 aastal",
+        "answer_ru": "2002 года",
+        "answer_en": "Year 2002"
       },
       {
-        "answer_ee": "answer2_ee",
-        "answer_ru": "answer2_ru",
-        "answer_en": "answer2_en"
+        "answer_ee": "Kes tema on",
+        "answer_ru": "Кто он?",
+        "answer_en": "Who's he?"
       },
       {
-        "answer_ee": "answer3_ee",
-        "answer_ru": "answer3_ru",
-        "answer_en": "answer3_en"
+        "answer_ee": "Ta pole kunagi sündinud",
+        "answer_ru": "Он никогда родилься",
+        "answer_en": "He was never born"
       }
     ]
   },
   {
-    "question_ee": "question1_ee",
-    "question_ru": "question1_ru",
-    "question_en": "question1_en",
-
-    "description_ee": "description_ee",
-    "description_ru": "description_ru",
-    "description_en": "description_en",
-
-    "picture_file": "picture",
-    "correct_answer": 0,
-
+    "question_ee": "Kes on Eesti Vabariigi praegune president",
+    "question_ru": "Küsimus vene keeles",
+    "question_en": "Who is the current president of the Republic of Estonia?",
+    "description_ee": "See on Kersti Kaljulaid, totu",
+    "description_ru": "Lisainfo vene keeles",
+    "description_en": "Lisainfo inglise keeles",
+    "picture_file": "picture2",
+    "correct_answer": 3,
     "answers": [
       {
-        "answer_ee": "answer0_ee",
-        "answer_ru": "answer0_ru",
-        "answer_en": "answer0_en"
+        "answer_ee": "Vastus 0 eesti keeles",
+        "answer_ru": "Vastus 0 vene keeles",
+        "answer_en": "Vastus 0 inglise keeles"
       },
       {
-        "answer_ee": "answer1_ee",
-        "answer_ru": "answer1_ru",
-        "answer_en": "answer1_en"
+        "answer_ee": "Vastus 1 eesti keeles",
+        "answer_ru": "Vastus 1 vene keeles",
+        "answer_en": "Vastus 1 inglise keeles"
       },
       {
-        "answer_ee": "answer2_ee",
-        "answer_ru": "answer2_ru",
-        "answer_en": "answer2_en"
+        "answer_ee": "Vastus 2 eesti keeles",
+        "answer_ru": "Vastus 2 vene keeles",
+        "answer_en": "Vastus 2 inglise keeles"
       },
       {
-        "answer_ee": "answer3_ee",
-        "answer_ru": "answer3_ru",
-        "answer_en": "answer3_en"
-      }
-    ]
-  },
-  {
-    "question_ee": "question2_ee",
-    "question_ru": "question2_ru",
-    "question_en": "question2_en",
-
-    "description_ee": "description_ee",
-    "description_ru": "description_ru",
-    "description_en": "description_en",
-
-    "picture_file": "picture",
-    "correct_answer": 0,
-
-    "answers": [
-      {
-        "answer_ee": "answer0_ee",
-        "answer_ru": "answer0_ru",
-        "answer_en": "answer0_en"
-      },
-      {
-        "answer_ee": "answer1_ee",
-        "answer_ru": "answer1_ru",
-        "answer_en": "answer1_en"
-      },
-      {
-        "answer_ee": "answer2_ee",
-        "answer_ru": "answer2_ru",
-        "answer_en": "answer2_en"
-      },
-      {
-        "answer_ee": "answer3_ee",
-        "answer_ru": "answer3_ru",
-        "answer_en": "answer3_en"
-      }
-    ]
-  },
-  {
-    "question_ee": "test_ee",
-    "question_ru": "test_ru",
-    "question_en": "test_en",
-
-    "description_ee": "description_ee",
-    "description_ru": "description_ru",
-    "description_en": "description_en",
-
-    "picture_file": "picture",
-    "correct_answer": 0,
-
-    "answers": [
-      {
-        "answer_ee": "answer0_ee",
-        "answer_ru": "answer0_ru",
-        "answer_en": "answer0_en"
-      },
-      {
-        "answer_ee": "answer1_ee",
-        "answer_ru": "answer1_ru",
-        "answer_en": "answer1_en"
-      },
-      {
-        "answer_ee": "answer2_ee",
-        "answer_ru": "answer2_ru",
-        "answer_en": "answer2_en"
-      },
-      {
-        "answer_ee": "answer3_ee",
-        "answer_ru": "answer3_ru",
-        "answer_en": "answer3_en"
+        "answer_ee": "Kersti Kaljulaid",
+        "answer_ru": "Керсти Калюлаид",
+        "answer_en": "Cherry Cliffside"
       }
     ]
   }

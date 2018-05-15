@@ -22,6 +22,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private List<Question> questionList;
     private Integer questionIndex;
     private RadioGroup radioGroup;
+    private int correctAnswer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         questionList = (List<Question>)getIntent().getSerializableExtra("question");
         questionIndex = getIntent().getIntExtra("questionIndex", 0);
         Question question = questionList.get(questionIndex);
+        correctAnswer = question.getCorrectAnswer();
 
         TextView textView = findViewById(R.id.questionText);
         textView.setText(question.getQuestionText());
@@ -73,6 +75,9 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                     case R.id.questionAnswer3:
                         selectedValue = 3;
                         break;
+                }
+                if(selectedValue==correctAnswer){
+                    ResultActivity.userScore++;
                 }
 
                 Intent intent = new Intent(QuestionActivity.this, QuestionDescriptionActivity.class);
