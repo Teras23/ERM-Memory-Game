@@ -1,15 +1,14 @@
 [
   {
     "question_ee": "Mis aastal tuli kasutusele eesti kroon?",
-    "question_ru": "В каком году стали использовать эстонскую крону ?",
+    "question_ru": "В каком году стали использовать эстонскую крону?",
     "question_en": "What year was the Estonian kroon introduced?",
 
     "description_ee": "20.-22. juunini 1992. aastal vahetati Eesti Vabariigis kasutusel olnud rublad eesti kroonide vastu. Rahareformi Komitee moodustati juba 27. märtsil 1991. aastal ning selle esimeheks sai Edgar Savisaar. Ühe inimese kohta oli võimalik vahetada 1500 rubla.",
-    "description_ru": "20.-22. июня 1992. года в Эстонии провели обмен находящихся в использовании рублей на эстонскую крону. 27.03.1991. году был создан Комитет по денежной реформе, предсеlателем стал Эдгар Сависаар. Каждый житель мог обменять 1500 рублей.
-",
+    "description_ru": "20.-22. июня 1992. года в Эстонии провели обмен находящихся в использовании рублей на эстонскую крону. 27.03.1991. году был создан Комитет по денежной реформе, предсеlателем стал Эдгар Сависаар. Каждый житель мог обменять 1500 рублей.",
     "description_en": "June 20-22,1992, roubles used in the Republic of Estonia were exchanged for Estonian kroons. A Monetary Reform Committee was established already on 27 March 1991 and Edgar Savisaar became its chairman. One person was allowed to exchange 1500 roubles.",
 
-    "picture_file": "picture",
+    "picture_file": "pic1.jpg",
     "correct_answer": 2,
 
     "answers": [
@@ -44,7 +43,7 @@
     "description_ru": "Леннарт Мери был президентом Эстонской Республики с 1992 по 2001 годы. На президентских выборах конкурентом Мери был Арнольд Рюютель. Мери был политик, писатель и создатель фильмов. Благодаря Мери Эстония стала более известной за границей и в Эстонии установилась стабильная демократия. Его вспоминают как мужчину с острыми высказываниями и юмористическими поступками.",
     "description_en": "Lennart Meri (1929-2006) was the President of the Republic of Estonia during 1992-2001. In the presidential elections his competitor was Arnold Rüütel. Meri was a politician, writer and filmmaker. Thanks to him, Estonia became better known abroad and a stable democracy was established in the country. He is remembered as a man of witty statements and humorous interludes.",
 
-    "picture_file": "picture",
+    "picture_file": "pic2.jpeg",
     "correct_answer": 1,
 
     "answers": [
@@ -78,7 +77,7 @@
     "description_ru": "Эстония стала членом Организации Объединенных Наций (ООН ) 17.09.1991 г. Первым постоянным представителем при ООН был Эрнст Яаксон. Эстония относится, начиная с 2004 года, в Восточно-Европейскую группу.",
     "description_en": "Estonia became a member of the United Nations on 17 September 1991. The first permanent representative to the United Nations was Ernst Jaakson. Since 2004, Estonia is a member of the the Eastern European group of the UN. ",
 
-    "picture_file": "picture",
+    "picture_file": "pic3.png",
     "correct_answer": 0,
 
     "answers": [
@@ -109,11 +108,10 @@
     "question_en": "In 1992, Edgar Savisaar, accompanied by journalists, broke into the Rävala Ltd. warehouse in order to expose a manufacturers’ conspiracy to conceal goods to make a bigger profit later. What was the product they found in the warehouse?",
 
     "description_ee": "1992. aastal oli Eesti majandus kriisis ja poeletid tühjad. Liikusid jutud, et tegelikult hoiavad tootjad kaupa ladudes, lootes teenida pideva hinnatõusu ja läheneva rahareformi abil hiljem superkasumit. Edgar Savisaar otsustas rahvale näidata, mis tegelikult toimub. Koos Eesti Televisiooni ajakirjanikega läks ta Rävala OÜ Ääsmäel asuvatesse ladudesse, kust avastati laotäis võikastide virnu. Tegemist oli alles turumajanduse algusega, segadust oli palju. Pommuudis jõudis televaatajateni samal õhtul ja paar päeva hiljem saadi võid taas toidulaual nautida.",
-    "description_ru": "В 1992 году Эстонская экономика была в кризисе и прилавки в магазинах пустые. Прошел слух, что на самом деле производители держат товар на складах, надеясь получить супер прибыль после постоянного повышения цен и благодаря денежной реформе. Эдгар Сависаар решил народу показать, что происходит на самом деле. Совместно с представителями эстонского телевидения Сависаар зашел в Рявала склады, где обнаружили полные склады масла. Это было начало рыночной экономики, неразберихи было много. Эта новость стала народу известна уже в тот же вечер и через пару дней люди могли уже наслаждаться маслом в своих семьях.
-",
+    "description_ru": "В 1992 году Эстонская экономика была в кризисе и прилавки в магазинах пустые. Прошел слух, что на самом деле производители держат товар на складах, надеясь получить супер прибыль после постоянного повышения цен и благодаря денежной реформе. Эдгар Сависаар решил народу показать, что происходит на самом деле. Совместно с представителями эстонского телевидения Сависаар зашел в Рявала склады, где обнаружили полные склады масла. Это было начало рыночной экономики, неразберихи было много. Эта новость стала народу известна уже в тот же вечер и через пару дней люди могли уже наслаждаться маслом в своих семьях.",
     "description_en": "In 1992, the Estonian economy was in crisis and stores were empty of products. Rumours circulated that actually the manufacturers were keeping their products in warehouses hoping to maximise profits by exploiting the continuous rise in prices and the upcoming monetary reform. Edgar Savisaar decided to show people what was really going on. Accompanied by journalists from the Estonian Television, he broke into the Ääsmäe warehouse of Rävala Ltd. where they discovered stacks of cases full of butter. It was only the beginning of market economy in Estonia and the event caused much confusion. The scandalous news reached the television viewers the same evening, and a few days later, people were once again enjoying butter on their tables.",
 
-    "picture_file": "picture",
+    "picture_file": "pic4.jpg",
     "correct_answer": 0,
 
     "answers": [
@@ -144,11 +142,10 @@
     "question_en": "Why is the date 26 March 1992 significant in the Estonian IT industry?",
 
     "description_ee": "Loodi satelliitsideühendus Tallinna ja Stockholmi vahel, mille kiiruseks oli 64 kbit/s. Internetiühenduse loomine välismaailmaga sai teoks tänu Eesti ja Rootsi teadusasutuste, Keemilise ja Bioloogilise Füüsika Instituudi, Rootsi Kuningliku Tehnikakõrgkooli ja Rootsi Kosmoseagentuuri koostööle.",
-    "description_ru": "Наладили сателлитную связь Таллин-на с Стокгольмом, скорость 64 kбит/с. Свясь с заграницей состоялась благодаря совместной работе научных предприятий, институтов Эстонии и Щвеции.
-",
+    "description_ru": "Наладили сателлитную связь Таллин-на с Стокгольмом, скорость 64 kбит/с. Свясь с заграницей состоялась благодаря совместной работе научных предприятий, институтов Эстонии и Щвеции.",
     "description_en": "A satellite communication connection was set up between Tallinn and Stockholm with a speed of 64 Kbit/s. Internet connection with the outside world became a reality thanks to cooperation between the Estonian and Swedish research institutions, namely the National Institute of Chemical Physics and Biophysics, the Swedish Royal Institute of Technology and the Swedish National Space Board.",
 
-    "picture_file": "picture",
+    "picture_file": "pic5.jpg",
     "correct_answer": 2,
 
     "answers": [
@@ -178,13 +175,11 @@
     "question_ru": "От кого призвал Сависаар эстонский народ защищать Тоомпеа 15-го мая 1990 г.? ",
     "question_en": "Edgar Savisaar called upon the Estonian people to protect Toompea on 15 May 1990. Against who?",
 
-    "description_ee": "15. mail 1990 aastal korraldas Interrinne ehk Eesti NSV Töötajate Internatsionaalne Liikumine Tallinnas Toompeal miitingu, mis kujunes vägivaldseks rünnakuks valitsushoonele. Nende ajendiks oli Eesti Ülemnõukogu 8. mai otsus, lõpetada ENSV lipu, vapi ja hümni kasutamine, ametliku nimetusena taastati Eesti Vabariik. Sellest päevast on läinud ajalukku kuulsad sõnad, millega kutsus toonane peaminister Edgar Savisaar Eesti rahvast kaitsele: “Toompead rünnatakse! Kordan, Toompead rünnatakse!” Tänu appi tulnud eestlastele kukkus mässajate plaan läbi. Interliikumise tegevuse keelustas Eesti Vabariigi Valitsus 25. augustil 1991.
-",
-    "description_ru": "15 мая 1990 года организовал Интерфронт в Таллине на Тоомпеа митинг, где объектом насилия стало правительственное здание. Поводом было решение Верховного совета от 8 мая – запретить использование флага, герба и гимна ЭССР и официально восстановить Эстонскую Республику. С тех пор вошли в историю знаменитые слова, которыми тогдашний премьер министр призвал эстонский народ на защиту Тоомпеа: “Тоомпеа атакуют! Повтаряю, Тоомпеа атакуют!” Благодаря на помощь пришедшим эстонцам план захвата провалился. 25 августа 1991 года Эстонское правительство запретило деятельность Интерфронта.
-s",
+    "description_ee": "15. mail 1990 aastal korraldas Interrinne ehk Eesti NSV Töötajate Internatsionaalne Liikumine Tallinnas Toompeal miitingu, mis kujunes vägivaldseks rünnakuks valitsushoonele. Nende ajendiks oli Eesti Ülemnõukogu 8. mai otsus, lõpetada ENSV lipu, vapi ja hümni kasutamine, ametliku nimetusena taastati Eesti Vabariik. Sellest päevast on läinud ajalukku kuulsad sõnad, millega kutsus toonane peaminister Edgar Savisaar Eesti rahvast kaitsele: “Toompead rünnatakse! Kordan, Toompead rünnatakse!” Tänu appi tulnud eestlastele kukkus mässajate plaan läbi. Interliikumise tegevuse keelustas Eesti Vabariigi Valitsus 25. augustil 1991.",
+    "description_ru": "15 мая 1990 года организовал Интерфронт в Таллине на Тоомпеа митинг, где объектом насилия стало правительственное здание. Поводом было решение Верховного совета от 8 мая – запретить использование флага, герба и гимна ЭССР и официально восстановить Эстонскую Республику. С тех пор вошли в историю знаменитые слова, которыми тогдашний премьер министр призвал эстонский народ на защиту Тоомпеа: “Тоомпеа атакуют! Повтаряю, Тоомпеа атакуют!” Благодаря на помощь пришедшим эстонцам план захвата провалился. 25 августа 1991 года Эстонское правительство запретило деятельность Интерфронта.",
     "description_en": "On 15 May 1990, the Intermovement or the International Movement of Workers in the Estonian Soviet Socialist Republic organized a meeting in Toompea which turned into a violent attack on the government building. They were motivated by the 8 May 1990 decision of the Estonian Supreme Council to terminate the use of the SSR flag, anthem, coat of arms and to restore the official name of the Republic of Estonia. The day has gone down in history for the famous words of the then Prime Minister Edgar Savisaar, calling the Estonian people to protect the Government on the radio: “Toompea is being attacked! I repeat, Toompea is being attacked!” Due to the hundreds of Estonians who rushed to help, the Intermovement attack failed. The Intermovement was banned by the Government of Estonia on 25 August 1991. ",
 
-    "picture_file": "picture",
+    "picture_file": "pic6.jpg",
     "correct_answer": 1,
 
     "answers": [
@@ -214,13 +209,11 @@ s",
     "question_ru": "Как назывался праздник, организованный в честь ухода русских войск на площади Свободы в 1994 г?",
     "question_en": "What was the name of the party organized to celebrate the departure of the Soviet troops in Freedom Square in 1994?",
 
-    "description_ee": Balti riikidest viimasena lahkusid võõrväed Eestist 31. augustil 1994. aastal. ,,Hüvasti!" hüüdis tol päeval peaminister Mart Laar koos Vabaduse väljakule kogunenud rahvaga okupatsioonivägedele, mis jätsid Eesti seljataha, seekord jäädavalt. 54 aastat oli sellest viimati möödas, kui Eesti riigi pinnal ei viibinud võõrvägesid. ",
-    "description_ru": "31 августа 1994 года Эстонию покинули последние чужие войска. ,,Прощай!" воскликнул в тот день премьер-министр Март Лаар вместе с собрашимся на площади Свободы народом оккупационным войскам, покидавшим Эстонию, на сей раз навсегда. 54 года прошло с тех пор, когда на Эстонской земле не было чужих войск.",
-    "description_en": "Of all the Baltic States, the Soviet troops left Estonia the last on 31 August 1994. „Farewell!“ was what the then Prime Minister Mart Laar together with all the people gathered to the Freedom Square called out to the occupying troops who left Estonia for good that time. 54 years had passed from the time when there were no foreign troops present in Estonia. 
+    "description_ee": "Balti riikidest viimasena lahkusid võõrväed Eestist 31. augustil 1994. aastal. 'Hüvasti!' hüüdis tol päeval peaminister Mart Laar koos Vabaduse väljakule kogunenud rahvaga okupatsioonivägedele, mis jätsid Eesti seljataha, seekord jäädavalt. 54 aastat oli sellest viimati möödas, kui Eesti riigi pinnal ei viibinud võõrvägesid.",
+    "description_ru": "31 августа 1994 года Эстонию покинули последние чужие войска. 'Прощай!' воскликнул в тот день премьер-министр Март Лаар вместе с собрашимся на площади Свободы народом оккупационным войскам, покидавшим Эстонию, на сей раз навсегда. 54 года прошло с тех пор, когда на Эстонской земле не было чужих войск.",
+    "description_en": "Of all the Baltic States, the Soviet troops left Estonia the last on 31 August 1994. „Farewell!“ was what the then Prime Minister Mart Laar together with all the people gathered to the Freedom Square called out to the occupying troops who left Estonia for good that time. 54 years had passed from the time when there were no foreign troops present in Estonia.",
 
-",
-
-    "picture_file": "picture",
+    "picture_file": "pic7.jpg",
     "correct_answer": 1,
 
     "answers": [
@@ -254,7 +247,7 @@ s",
     "description_ru": "Леннарт Мери обещал не пить шампанского до тех пор, пока последние советские войска не покинут Эстонию. Этот жест был особенно впечатляющий за границей. Когда войска наконец ушли, в Эстонию сразу прибыла иностранная медия, чтобы убедиться как президент поднимет первый бокал шампанского. Своеобразные импровизации Леннарта Мери привлекали всегда как в Эстонии так и за рубежом.",
     "description_en": "President Lennart Meri announced that he would not be drinking any champagne at receptions before the last remains of Soviet troops were out of Estonia. It did not necessarily have a significant impact in Estonia but was widely noticed abroad. After the troops finally departed, foreign media arrived to Estonia to see President Meri raise his first glass. The tasteful improvisations of President Meri always drew a lot of attention both in Estonia and farther.",
 
-    "picture_file": "picture",
+    "picture_file": "pic8.jpg",
     "correct_answer": 2,
 
     "answers": [
@@ -284,13 +277,11 @@ s",
     "question_ru": "Что хотели добиться горуправы Нарвы и Силламяе?",
     "question_en": "What did the municipalities of Narva and Sillamäe try to achieve by the 1993 referendum? ",
 
-    "description_ee": "16. ja 17. juulil 1993. aastal toimus Narvas ja Sillamäel ebaseaduslik referendum, mille eestvedajad olid Narva ja Sillamäe linnavolikogu. Referendumil osaleja pidi olenevalt elukohast vastama küsimusele  "Kas Te soovite, et Narval oleks rahvuslik-territoriaalse autonoomia staatus Eesti Vabariigi koosseisus?" või "Kas Te soovite, et Sillamäel oleks Eesti Vabariigi koosseisus rahvuslik-territoriaalse autonoomia staatus, mille territooriumil oleksid kõigile elanikele tagatud võrdsed õigused?"
-Volikogude andmetel osales Narvas referendumil 54% ning Sillamäel 60% hääleõiguslikest kodanikest. Vabariigi vaatlejate sõnul oli osalusprotsent aga alla poole. Autonoomiat toetasid pea kõik hääletanud- Narvas 97% ning Sillamäel 98,6%. Referendumi tulemused tunnistati kehtetuks Riigikohtu otsusega 11. augustil 1993. aasta",
+    "description_ee": "16. ja 17. juulil 1993. aastal toimus Narvas ja Sillamäel ebaseaduslik referendum, mille eestvedajad olid Narva ja Sillamäe linnavolikogu. Referendumil osaleja pidi olenevalt elukohast vastama küsimusele  'Kas Te soovite, et Narval oleks rahvuslik-territoriaalse autonoomia staatus Eesti Vabariigi koosseisus?' või 'Kas Te soovite, et Sillamäel oleks Eesti Vabariigi koosseisus rahvuslik-territoriaalse autonoomia staatus, mille territooriumil oleksid kõigile elanikele tagatud võrdsed õigused?' Volikogude andmetel osales Narvas referendumil 54% ning Sillamäel 60% hääleõiguslikest kodanikest. Vabariigi vaatlejate sõnul oli osalusprotsent aga alla poole. Autonoomiat toetasid pea kõik hääletanud- Narvas 97% ning Sillamäel 98,6%. Referendumi tulemused tunnistati kehtetuks Riigikohtu otsusega 11. augustil 1993. aasta",
     "description_ru": "16, 17 июля 1993 года в Нарве и Силламяе произошел незаконный референдум, под предводительством соответствующих горуправ, участник референдума должен был ответить на вопрос «Желаете ли вы, чтобы в Нарве был статус национально-территориальной автономии в составе Эстонской Республики?», или «Желаете ли вы, чтобы в Силламяе был национально-территориальный статус в составе Эстонской Республики, на территории которой были всем жителям соблюдены равные права?». По данным госсобраний в референдуме Нарвы участвовала 54%, а в Силламяе 60% граждан с правом голоса. По данным % участия был ниже, меньше половины. Автономию поддержали все участники 97% в Нарве и 98,6% в Силламяе. Итоги референдума признали не действительными решением Госсуда от 11 августа 1993 г.",
-    "description_en": "On 16 and 17 July 1993, an illegal referendum was held in the towns of Narva and Sillamäe, organized by the city councils of those towns. The participants had to give their answers to the questions "Do you want Narva (or Sillamäe, depending on the participant’s place of residence) to have the status of national and territorial autonomy within the Republic of Estonia?“ or " Do you want Sillamäe to have the status of national-territorial autonomy within the Republic of Estonia, where equal rights to all residents would be guaranteed?“
-According to the city council, 54% of citizens with voting rights in Narva and 60% in Sillamäe participated in the referendum. However, the government observers said the turnout was just under half. Autonomy was supported by almost all- 97% in Narva and 98,6% in Sillamäe. The results of the referendum were declared void by the decision of the Supreme Court on 11 August 1993.",
+    "description_en": "On 16 and 17 July 1993, an illegal referendum was held in the towns of Narva and Sillamäe, organized by the city councils of those towns. The participants had to give their answers to the questions 'Do you want Narva (or Sillamäe, depending on the participant’s place of residence) to have the status of national and territorial autonomy within the Republic of Estonia?' or 'Do you want Sillamäe to have the status of national-territorial autonomy within the Republic of Estonia, where equal rights to all residents would be guaranteed?' According to the city council, 54% of citizens with voting rights in Narva and 60% in Sillamäe participated in the referendum. However, the government observers said the turnout was just under half. Autonomy was supported by almost all- 97% in Narva and 98,6% in Sillamäe. The results of the referendum were declared void by the decision of the Supreme Court on 11 August 1993.",
 
-    "picture_file": "picture",
+    "picture_file": "pic9.jpg",
     "correct_answer": 1,
 
     "answers": [
@@ -324,7 +315,7 @@ According to the city council, 54% of citizens with voting rights in Narva and 6
     "description_ru": "Правительство Лаара было первым правительством Эстонской республики, избранное на основе основного закона, находящегося у власти с 21 октября 1992 года по 8 ноября 1994 года избирательный союз Отечество. В состав которого входили партии Эстонско-Христианско Демократическая, Эстонская Консервативная, Эстонско-Христианский Союз и Республиканский Союз победили выборы в парламент. 26 сентября в 1994 году предъявили недоверие правительству Лаара. Поводом послужила продажа собранных рублей в Чечню (в процессе обмена на эстонские кроны).",
     "description_en": "Prime Minister Mart Laar's government was the first government that took office under the 1992 constitution of the Republic of Estonia, and stayed in office from 21 October 1992 to 8 November 1994. An election coalition called Isamaa (Pro Patria), which included the Estonian Christian Democratic Party, the Conservative People's Party of Estonia, the Estonian Christian Democratic Union and the Republicans' Coalition Party won the parliamentary elections. A motion of no confidence in the Mart Laar’s government was passed on 26 September 1994, motivated by the sales of the roubles collected during the monetary reform to Chechnya",
 
-    "picture_file": "picture",
+    "picture_file": "pic10.jpeg",
     "correct_answer": 2,
 
     "answers": [

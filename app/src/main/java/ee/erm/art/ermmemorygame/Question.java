@@ -60,6 +60,10 @@ public class Question implements Serializable {
         return correctAnswer;
     }
 
+    public String getFileName(){
+        return fileName;
+    }
+
     @Override
     public String toString() {
         return "Question{" +

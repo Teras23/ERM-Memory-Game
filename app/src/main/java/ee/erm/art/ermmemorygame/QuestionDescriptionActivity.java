@@ -1,6 +1,8 @@
 package ee.erm.art.ermmemorygame;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -34,8 +36,11 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
 
         ImageButton nextButton = findViewById(R.id.questionForward);
 
+
         ImageView imageView = findViewById(R.id.descriptionImage);
-        imageView.setImageResource(getDrawableImage());
+        String filename = question.getFileName();
+        Bitmap bmImg = BitmapFactory.decodeFile(filename);
+        imageView.setImageBitmap(bmImg);
 
         nextButton.setOnClickListener(this);
     }
