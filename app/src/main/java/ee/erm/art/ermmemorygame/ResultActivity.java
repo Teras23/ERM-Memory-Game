@@ -23,6 +23,20 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.score);
 
         ImageButton homeButton = findViewById(R.id.reset);
+
+        TextView resultText = findViewById(R.id.textView2);
+        switch (MLString.getCurrentLanguage()){
+            case Estonian:
+                resultText.setText("Sinu tulemus on");
+                break;
+            case English:
+                resultText.setText("Your score is");
+                break;
+            case Russian:
+                resultText.setText("Твой результат");
+                break;
+        }
+
         TextView score = findViewById(R.id.textView3);
         score.setText(userScore.toString() + "/10");
         homeButton.setOnClickListener(this);

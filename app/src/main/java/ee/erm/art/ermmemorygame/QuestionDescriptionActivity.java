@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -43,7 +44,7 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
                     resultDescription.setText("Correct!");
                     break;
                 case Russian:
-                    resultDescription.setText("Pravilno!");
+                    resultDescription.setText("Правилно!");
                     break;
                 case Estonian:
                     resultDescription.setText("Õige!");
@@ -56,7 +57,7 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
                     resultDescription.setText("Vale!");
                     break;
                 case Russian:
-                    resultDescription.setText("Nepravilno otvet!");
+                    resultDescription.setText("Неправилно!");
                     break;
                 case English:
                     resultDescription.setText("Incorrect");
@@ -66,6 +67,7 @@ public class QuestionDescriptionActivity extends AppCompatActivity implements Vi
 
         TextView questionDescription = findViewById(R.id.questionDescription);
         questionDescription.setText(question.getDescription());
+        questionDescription.setMovementMethod(new ScrollingMovementMethod());
 
         ImageButton nextButton = findViewById(R.id.questionForward);
 

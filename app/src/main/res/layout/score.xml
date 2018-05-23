@@ -27,18 +27,12 @@
         android:textColor="@android:color/background_light"
         android:textSize="108sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="32sp" />
-
     <ImageButton
-        android:id="@+id/reset"
-        style="@android:style/Widget.Holo.ImageButton"
-        android:layout_width="166dp"
-        android:layout_height="156dp"
-        android:scaleType="centerCrop"
-        app:srcCompat="@android:drawable/ic_menu_rotate" />
+            android:id="@+id/reset"
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="166dp"
+            android:layout_height="166dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/reset"/>
 
 </LinearLayout>
